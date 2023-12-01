@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // --------------------even Number--------------------
+        // for(let i=0;i<=15;i++){
+        //     if(i%2==0){
+        //         document.write(i,"<br>");
+        //     }
+        // }
+
+
+
+        // -------------------------first method------------------------
+        // let x = [2,1,6,7,12,5,35,54,23,60]
+        // for (let i = 0; i < x.length; i++) {
+        //     let max = 0
+        //     for (let j = i + 1; j < x.length; j++) {
+        //         if (x[i] > x[j]) {
+        //             max = x[i]
+        //             x[i] = x[j]
+        //             x[j] = max
+        //         }
+        //     }
+        // }
+        // document.write(x[x.length-1]);
+        // ------------------------------second method------------------------
+        let x =[2,1,6,4,8,9,15,12,10]
+        let max=x[0];
+        for(let i=1;i<x.length;i++){
+            if(x[i]>max){
+                max=x[i]; 
+            }
+        }
+        document.write(max);
+
+        // --------------------------------------even--odd-and sum-----------------------
+
+        // let x = 0;
+        // for (i = 5; i <= 25; i++) {
+        //     if (i % 2 == 0) {
+        //         x = x + i;
+        //         document.write(i, "<br>");
+        //     }
+        // }
+        // document.write(x, "<br>");
+        // ------------------------------------------------fizz-buzz-fizz,buzz---------------
+
+        // for (i = 1; i <= 100; i++) {
+
+        //     if (i % 3 == 0) {
+
+        //         document.write("Fizz <br>");
+        //     }
+        //     else if (i % 5 == 0) {
+        //         document.write("Buzz");
+        //     }
+        //     else if (i % 3 == 0 && i % 5 == 0) {
+        //         document.write("FizzBuzz <br>");
+        //     }
+        // }
+        // for (i = 1; i <= 100; i++) {
+        //     switch (true) {
+        //         case (i % 3 == 0 && i % 5 == 0):
+        //             document.write("FizzBuzz<br>");
+        //             break;
+        //         case (i % 3 == 0):
+        //             document.write("Fizz<br>");
+        //             break;
+        //         case (i % 5 == 0):
+        //             document.write("Buzz<br>");
+        //             break;
+        //     }
+        // }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let sum =0;
+        // let number="153"
+        // let temp= number;
+        // while(temp!=0){
+        //     let remainder= temp%10;
+        //     sum+=remainder**number.length;
+        //     temp=parseInt(temp/10);
+        // }
+        // if(sum==number){
+        //     document.write(`${number}is an armstrong number`);
+        // }
+        // else{
+        //     document.write(`${number}is not an armstrong number`);
+        // }
+        // let sum = 0;
+        // let number=parseInt(prompt("enter the number"))
+        // let temp= number;
+        // while(temp!=0){
+        //     let remainder= temp%10;
+        //     sum+=remainder*remainder*remainder;
+        //     temp=parseInt(temp/10);
+        // }
+        // if(sum==number){
+        //     document.write(`${number}is an armstrong number`);
+        // }
+        // else{
+        //     document.write(`${number}is not an armstrong number`);
+        // }
+        // function my(a) {
+        //     let sum = 0;
+        //     let number = parseInt(prompt("enter the number"));
+        //     let temp = number;
+        //     while (temp != 0) {
+        //         let remainder = temp % 10;
+        //         sum += remainder * remainder * remainder;
+        //         temp = parseInt(temp / 10);
+        //     }
+        //     if (sum == number) {
+        //         document.write(`${number} is an armstorng number`)
+
+        //     }
+        //     else {
+        //         document.write(`${number} is not an armstorng number`)
+        //     }
+        // }
+        // my()
+        
+        function my(a) {
+            let sum = 0;
+            let number = "153"
+            let temp = number;
+            while (temp != 0) {
+                let remainder = temp % 10;
+                sum += remainder ** number.length;
+                temp = parseInt(temp / 10);
+            }
+            if (sum == number) {
+                document.write(`${number} is an armstorng number`)
+
+            }
+            else {
+                document.write(`${number} is not an armstorng number`)
+            }
+        }
+        my()
+
+        
+        // function fibnocci(x){
+        //     let a=0;b=1;
+        //     document.write(a,"",b);
+        //     let c;
+            
+        //     for(let i=1;i<=10;i++){
+        //         c=a+b;
+        //         document.write(" ",c);
+        //         a=b;
+        //         b=c;
+
+        //     }
+        // }
+        // fibnocci()
+
+
+    </script>
+</body>
+
+</html>

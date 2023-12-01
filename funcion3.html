@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //        let a=1;
+        //    for(let i=1;i<=5;i++){
+        //     a=a*i;
+        //    }
+        //    document.write(a)
+       
+        // let a=1;
+
+// -----------------------------------------factorial-------------------------
+        // let sto = 1;
+        //  function factorial(a){
+        //     for(let i=1;i<=a;i++){
+        //     sto = sto*i
+        //     }
+        //     document.write(sto)
+        //  }
+        //  factorial(5)
+        
+        
+        // function array(a){
+        //     document.write(a)
+        // }
+        // array(["hello","hii"])
+
+        // function array(a){
+        //      for(let i= a.length-1;i>=0;i--){
+        //         document.write(a[i])
+        //      }
+
+        //  }
+        //  array(["hello ","hii " ,"ram "])
+
+        // ---------------------------------accending order-- maximum second value-------------------
+
+        // let x=[21,12,13,5,4,6,2,1]
+        // let max=[0]
+        // for(let i=0;i<=x.length-1;i++){
+        //     for(let j=i+1;j<=x.length-1;j++){
+        //         if(x[i]>x[j]){
+        //            max= x[i]
+        //            x[i]=x[j]
+        //            x[j]=max
+        //         }
+        //     }
+        //     document.write(x[i],"<br>")
+           
+        // }
+        // document.write(x[x.length-2])
+
+        // ---------------------------------minimum second value---------------------------
+
+        // let x=[3,8,7,4,8]
+        // let max=0;
+        // for(let i=0;i<x.length;i++){
+        //     for(let j=i+1;j<x.length;j++){
+        //         if(x[i]<x[j]){
+        //             max=x[i]
+        //             x[i]=x[j]
+        //             x[j]=max
+        //         }
+        //     }
+        //     document.write(x[i]," ")      
+        //    let a=1;
+        //    for(let i=1;i<=5;i++){
+        //     a=a*i;
+        //    }
+        //    document.write(a)
+        
+
+        // document.write(x[x.length-2])
+
+
+
+
+        // --------------------------------- accending order------------------------
+
+        // function accen(x){
+
+        //     for (let i = 0; i < x.length; i++) {
+        //         let max = 0;
+
+        //         for (let j =i+1; j < x.length; j++) {
+        //             if (x[i] >x[j]) {
+        //                 max = x[i]
+        //                 x[i] = x[j]
+        //                 x[j] = max
+        //             }
+        //         }
+        //     }
+        //     document.write( x,"<br>")
+        //     document.write( x[x.length-2])
+        // }
+        // accen([12, 14, 9, 5, 3, 7, 2, 1]);
+
+        // -------------------------------------------dicending order-----------------------------
+
+        function reccen(x){
+            for(let i=0;i<x.length;i++){
+                for(let j=i+1;j<x.length;j++){
+                    if(x[i]<x[j]){
+                        max=x[i]
+                        x[i]=x[j]
+                        x[j]=max
+                    }
+                }
+            }
+            document.write(x," <br>")
+            document.write(x[x.length-2])
+        }
+        reccen([12,5,8,4,7,6,2,1])
+
+// ---------------------------------------------maximum value--------------------
+
+        // function max(x) {
+        //     let max = x[0]
+        //     for (let i = 1; i < x.length; i++) {
+               
+        //         if (x[i] > max) {
+        //             max = x[i]
+        //         }
+        //     }
+        //     document.write(max)
+        // }
+        // max([1, 4, 6, 3, 2, 8, 10])
+
+        // ----------------------------------------minimum value---------------------
+
+    // function min(x){
+    //     let min =x[0]
+    //     for(let i=1;i<x.lenght;i++){
+    //         if(x[i]<min){
+    //             min=x[i]
+    //         }
+    //     }
+    //     console.log(min)
+    // }
+    // min([2,3,6,5,8,7,9,1])
+
+
+    </script>
+</body>
+
+</html>

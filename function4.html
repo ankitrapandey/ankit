@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //         var carName ="swift"
+        //  document.write(carName,)
+
+        // function myFunction() {
+        //   var carName = "Volvo"; 
+        //     // Function Scope
+        //     document.write(carName,"inside the function")
+
+        // }
+        // myFunction()
+        // document.write(carName,)
+
+
+
+        // function accen(x) {
+
+        //     for (let i = 0; i < x.length; i++) {
+        //         let max = 0;
+
+        //         for (let j = i + 1; j < x.length; j++) {
+        //             if (x[i].length > x[j].length) {
+        //                 max = x[i]
+        //                 x[i] = x[j]
+        //                 x[j] = max
+        //             }
+        //         }
+        //     }
+        //     document.write(x, "<br>")
+        // }
+        // accen(["ankit", "suryanshu", "hii"]);
+
+        // for (let i = 0; i <10; i++) {
+
+        //     for (let j = 2; j <= i; j++) {
+
+        //         if (i % j == 0) {
+        //             break;
+
+        //         }
+
+        //         if(i==j){
+
+        //     } 
+
+        //      }  
+        //      document.write (i,"prime number") 
+
+        //    }
+
+        function prime(a) {
+            let b = 0;
+            for (let i = 1; i <= a; i++) {
+                if (a % i == 0) {
+                    b++
+                }
+            }
+            if (b==2) {
+                document.write("it's prime number")
+            }
+            else {
+                document.write("it's not prime number")
+            }
+        }
+        prime(11)
+
+
+    </script>
+</body>
+
+</html>
