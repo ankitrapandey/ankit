@@ -9,7 +9,95 @@
 
 <body>
     <script>
-       
+        //    --------------------------sum of all even Number-------------------------
+        //         function even(a, b) {
+        //             let sum = 0;
+        //             for (let i = a; i <= b; i++) {
+        //                 if (i % 2 === 0) {
+        //                     sum += i
+        //                 }
+        //             }
+        //             return sum;
+        //         }
+        // let a=1;
+        // let b=100;
+        // let sum = even(a,b);
+        // document.write(sum);
+
+
+        // --------------------------armstrong 101 to 200--------------------------
+
+
+        // for(let i=101;i<=200;i++){
+        //     let sum=0;
+        //     let temp=i;
+        //     rem=0;
+        //     while(temp!=0){
+        //         rem=temp%10;
+        //         sum+=rem*rem*rem;
+        //         temp=parseInt(temp/10);
+        //     }       
+        //     if(sum==i){
+        //         document.write(i,"it's is armstrong")
+        //     }
+
+        // }
+        // -------------------------------sum of all prime number-------------------------
+        // let sum =0;
+        // for(let i=1;i<=20;i++){
+        //     for(let j=1;j<=i-1;j++){
+        //         temp=0;
+        //         if(i%j==0){
+        //             temp++
+        //         }
+        //         if(temp==0){
+        //             sum=sum+i
+        //         }
+        //     }
+        // }
+        // document.write("sum of prime number"+sum);
+
+        // ----------------------------------------------print prime Number--------------------------------
+
+        // for (let i = 1; i <= 20; i++) {
+        //     for (j = 2; j < i; j++) {
+        //         if (i % j == 0) {
+        //             break;
+        //         }
+
+        //     }
+        //     if (i == j) {
+        //         document.write(i, "<br>")
+        //     }
+        // }
+        
+
+        // -------------------------------sum of prime number-------------------
+        // let b = 0;
+        // for (let i = 1; i <= 20;i++) {
+        //     for ( var j = 2; j < i; j++) {
+        //         if (i % j == 0) {
+        //             break;
+        //         }
+        //     }
+        //     if (i == j) {
+        //         b = b + i;
+        //         // document.write(i, "<br>")
+        //     }
+          
+        // }
+        // document.write(b, "<br>");
+// -----------------------------------------------sum of even----------------------
+function even(){
+        let sum =0;
+        for(let i=1;i<=10;i++){
+            if(i%2==0){
+                sum=sum+i;
+            }
+        }
+        document.write(sum);
+    }
+    even()
     </script>
 </body>
 

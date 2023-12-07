@@ -9,21 +9,16 @@
 
 <body>
     <script>
-        //        let a=1;
-        //    for(let i=1;i<=5;i++){
-        //     a=a*i;
-        //    }
-        //    document.write(a)
-       
-        // let a=1;
+
 
 // -----------------------------------------factorial-------------------------
-        // let sto = 1;
+        
         //  function factorial(a){
+        //     let x = 1;
         //     for(let i=1;i<=a;i++){
-        //     sto = sto*i
+        //     x = x*i
         //     }
-        //     document.write(sto)
+        //     document.write(x)
         //  }
         //  factorial(5)
         
@@ -43,24 +38,26 @@
 
         // ---------------------------------accending order-- maximum second value-------------------
 
-        // let x=[21,12,13,5,4,6,2,1]
-        // let max=[0]
-        // for(let i=0;i<=x.length-1;i++){
-        //     for(let j=i+1;j<=x.length-1;j++){
-        //         if(x[i]>x[j]){
-        //            max= x[i]
-        //            x[i]=x[j]
-        //            x[j]=max
-        //         }
-        //     }
-        //     document.write(x[i],"<br>")
+        let x=[21,12,13,5,4,6,2,1]
+        let max=[0]
+        for(let i=0;i<=x.length-1;i++){
+            for(let j=i+1;j<=x.length-1;j++){
+                if(x[i]>x[j]){
+                   max= x[i]
+                   x[i]=x[j]
+                   x[j]=max
+                }
+            }
+            // document.write(x[i],"<br>")
            
-        // }
-        // document.write(x[x.length-2])
-
+        }
+        document.write(x[x.length-2])
+        
+        
+      
         // ---------------------------------minimum second value---------------------------
 
-        // let x=[3,8,7,4,8]
+        // let x=[3,8,7,4,5]
         // let max=0;
         // for(let i=0;i<x.length;i++){
         //     for(let j=i+1;j<x.length;j++){
@@ -70,13 +67,9 @@
         //             x[j]=max
         //         }
         //     }
-        //     document.write(x[i]," ")      
-        //    let a=1;
-        //    for(let i=1;i<=5;i++){
-        //     a=a*i;
-        //    }
-        //    document.write(a)
-        
+        //     // document.write(x[i]," ")  
+                
+        // }
 
         // document.write(x[x.length-2])
 
@@ -88,7 +81,7 @@
         // function accen(x){
 
         //     for (let i = 0; i < x.length; i++) {
-        //         let max = 0;
+        //         let max = [0];
 
         //         for (let j =i+1; j < x.length; j++) {
         //             if (x[i] >x[j]) {
@@ -98,27 +91,27 @@
         //             }
         //         }
         //     }
-        //     document.write( x,"<br>")
+        //     // document.write( x,"<br>")
         //     document.write( x[x.length-2])
         // }
         // accen([12, 14, 9, 5, 3, 7, 2, 1]);
 
         // -------------------------------------------dicending order-----------------------------
 
-        function reccen(x){
-            for(let i=0;i<x.length;i++){
-                for(let j=i+1;j<x.length;j++){
-                    if(x[i]<x[j]){
-                        max=x[i]
-                        x[i]=x[j]
-                        x[j]=max
-                    }
-                }
-            }
-            document.write(x," <br>")
-            document.write(x[x.length-2])
-        }
-        reccen([12,5,8,4,7,6,2,1])
+        // function reccen(x){
+        //     for(let i=0;i<x.length;i++){
+        //         for(let j=i+1;j<x.length;j++){
+        //             if(x[i]<x[j]){
+        //                 max=x[i]
+        //                 x[i]=x[j]
+        //                 x[j]=max
+        //             }
+        //         }
+        //     }
+        //     document.write(x," <br>")
+        //     document.write(x[x.length-2])
+        // }
+        // reccen([12,5,8,4,7,6,2,1])
 
 // ---------------------------------------------maximum value--------------------
 
