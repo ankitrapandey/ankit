@@ -38,19 +38,19 @@
 
         // ---------------------------------accending order-- maximum second value-------------------
 
-        // let x=[21,12,13,5,4,6,2,1]
-        // let max=[0]
-        // for(let i=0;i<=x.length-1;i++){
-        //     for(let j=i+1;j<=x.length-1;j++){
-        //         if(x[i]>x[j]){
-        //            max= x[i]
-        //            x[i]=x[j]
-        //            x[j]=max
-        //         }
-        //     }
-        //     // document.write(x[i],"<br>")
+        let x=[21,12,13,5,4,6,2,1]
+        let max=[0]
+        for(let i=0;i<=x.length-1;i++){
+            for(let j=i+1;j<=x.length-1;j++){
+                if(x[i]>x[j]){
+                   max= x[i]
+                   x[i]=x[j]
+                   x[j]=max
+                }
+            }
+            document.write(x[i],"<br>")
            
-        // }
+        }
         // document.write(x[x.length-2])
         
         
